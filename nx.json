@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "npmScope": "quiz-app",
+  "npmScope": "frontend-app",
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",
@@ -64,5 +64,5 @@
       }
     }
   },
-  "defaultProject": "quiz-app"
+  "defaultProject": "frontend-app"
 }

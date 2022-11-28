@@ -1,7 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Route, Routes, Link } from 'react-router-dom';
 
-import { Button } from '@quiz/common-ui';
+import { Button } from '@project/common-ui';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { Todos } from './Todos';
 const queryClient = new QueryClient();

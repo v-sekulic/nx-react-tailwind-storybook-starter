@@ -1,12 +1,12 @@
 {
-  "name": "quiz-app",
+  "name": "nx-react-tailwind-storybook-starter",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
-    "start:quiz": "nx run quiz-app:serve",
+    "start:frontend": "nx run frontend-app:serve",
     "start:admin": "nx run admin:serve",
     "graph": "nx graph",
     "common:component": "nx g @nrwl/react:component $npm_config_name --project=common-ui --export",

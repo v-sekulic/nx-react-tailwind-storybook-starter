@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@quiz/common-logic": ["libs/common-logic/src/index.ts"],
-      "@quiz/common-ui": ["libs/common-ui/src/index.ts"]
+      "@project/common-logic": ["libs/common-logic/src/index.ts"],
+      "@project/common-ui": ["libs/common-ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
